@@ -10,10 +10,10 @@ git config --global user.email "your-email@example.com"
 Команды которые часта пишутся в проекте
 git add .    |  Команда копирует и сохраняет в буфер ( Невидемый )
 git commit -m "commit message"    | Команда сохраняет изменения в файле .git
-git push origin master | Команда отправляет изменения в репозиторий и сохраняет его там
+git push origin main | Команда отправляет изменения в репозиторий и сохраняет его там
 git branch   | Команда для просмотра списка веток
 git status   | Команда для просмотра состояния проекта или просмотра изменений
-git pull origin master | Команда для получения изменений из репозитория
+git pull origin main | Команда для получения изменений из репозитория
 
 .venv\Scripts\activate   |
 
@@ -33,3 +33,23 @@ mkdir name_dir | Команда для создания директории с 
 touch name_file | Команда для создания файла с названием name_file
 rm name_file | Команда для удаления файла с названием name_file
 clean | Команда для очистки терминала
+
+deactivate | Команда для деактивации виртуального окружения
+
+.venv\Scripts\activate | Команда для активации виртуального окружения на Windows
+
+source .venv/bin/activate  | Команда для активации виртуального окружения на Linux и MacOS
+
+pip freeze  | Команда для получения списка установленных пакетов
+
+
+
+pip freeze -> requrements.txt  | Команда для конвертации списка установленных пакетов в requirements.txt
+
+
+python3 -m venv venv_name | Команда для создания виртуального окружения с названием venv_name для Linux
+python -m venv venv_name | Команда для создания виртуального окружения с названием venv_name для Linux
+py -m venv venv_name | Команда для создания виртуального окружения с названием venv_name для Windows
+
+
+pip install -r requirements.txt | Команда для установки всех пакетов из requirements.txt

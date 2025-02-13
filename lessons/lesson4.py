@@ -1,21 +1,19 @@
 # декоратор
 
-# def my_decorator(func):
-#
-#     def wrapper():
-#         print('before func work')
-#         func()
-#         print('after func work')
-#
-#     return wrapper()
-#
-#
-# @my_decorator
-# def hello():
-#     print('hello world!')
-#
-#
-# hello()
+def my_decorator(func):
+
+    def wrapper():
+        print('before func work')
+        func()
+        print('after func work')
+
+    return wrapper()
+
+
+@my_decorator
+def hello():
+    print('hello world!')
+
 
 
 # декоратор с аргументом
