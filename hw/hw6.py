@@ -44,7 +44,7 @@ def get_all_users():
         
 get_all_users()
 
-def get_users_by_name(Arsen):
+def get_users_by_name():
 
     name = input("Введите имя пользователя: ")
 
@@ -61,5 +61,5 @@ def get_users_by_name(Arsen):
     else:
         print("Пользователь не найден")
 
-get_users_by_name("Arsen")
+get_users_by_name()
     
